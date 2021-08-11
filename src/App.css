@@ -37,3 +37,15 @@
     transform: translateY(0px);
   }
 }
+
+.reddit-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reddit-unit {
+  max-width: 30vh;
+  min-width: 30vh;
+  padding: 10%;
+}
